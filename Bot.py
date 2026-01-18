@@ -4,8 +4,8 @@ from telegram import Update, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, MessageHandler, filters
 
 # --- CONFIGURACIÓN ---
-TELEGRAM_TOKEN = '8488237479:AAEiTj6nDkiiuqXYl2VP2443rfyW-xUd1OI'
-GEMINI_API_KEY = 'AIzaSyB9twIkJWzLuP5TdQtlOqcGM4nWGxJVCeY'
+TELEGRAM_TOKEN = TELEGRAM_TOKEN
+GEMINI_API_KEY = GEMINI_API_KEY
 
 # Configuración de Logs
 logging.basicConfig(
