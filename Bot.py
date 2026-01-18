@@ -2,11 +2,12 @@ import logging
 import google.generativeai as genai
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, MessageHandler, filters
+from dotenv import load_dotenv
+import os
 
 # --- CONFIGURACIÓN ---
-TELEGRAM_TOKEN = TELEGRAM_TOKEN
-GEMINI_API_KEY = GEMINI_API_KEY
-
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 # Configuración de Logs
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
