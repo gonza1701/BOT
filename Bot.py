@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, Messa
 
 # --- CONFIGURACIÓN ---
 TELEGRAM_TOKEN = '8488237479:AAEiTj6nDkiiuqXYl2VP2443rfyW-xUd1OI'
-GEMINI_API_KEY = 'AIzaSyA7jiqDDqQhAH9gDXaZj9c_RGpmfOBcFAc'
+GEMINI_API_KEY = 'AIzaSyB9twIkJWzLuP5TdQtlOqcGM4nWGxJVCeY'
 
 # Configuración de Logs
 logging.basicConfig(
