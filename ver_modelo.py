@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # PEGA AQUÍ LA API KEY DE TU IMAGEN
-GOOGLE_API_KEY = 'AIzaSyA7jiqDDqQhAH9gDXaZj9c_RGpmfOBcFAc'
+GOOGLE_API_KEY = 'TU API AQUI'
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
