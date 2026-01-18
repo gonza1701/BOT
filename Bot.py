@@ -16,7 +16,7 @@ logging.basicConfig(
 # Configuración de Gemini
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel(
-    'gemini-flash-latest',
+    'gemini-flash-lite-latest',
     system_instruction="""
     Eres un asistente educativo experto en salud cardiovascular.
     Tu objetivo es proveer información clara y calmada.
